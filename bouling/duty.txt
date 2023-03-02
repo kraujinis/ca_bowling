@@ -12,4 +12,4 @@
 # Requirements: OOP (Inheritance as minimum), functions, modules, import, types, clean code , naming, logging.
 
 # + venv, github
-# + Error handling
+# + Error handling~
