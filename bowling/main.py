@@ -1,8 +1,5 @@
 
-import keyboard
-import calculation as calc
-import random
-import time
+import keyboard as kb
 
 
 class Player:
@@ -49,5 +46,6 @@ throw_points = []
 # print(throw_points)
 
 while True:
-    keyboard.wait('space')
+    kb.wait('space')
     print('space was pressed! Waiting on it again...')
+    break
