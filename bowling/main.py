@@ -1,6 +1,5 @@
 
-import keyboard as kb
-
+import keyboard
 
 class Player:
     def __init__(self, player_name: str, score: int) -> None:
@@ -46,6 +45,6 @@ throw_points = []
 # print(throw_points)
 
 while True:
-    kb.wait('space')
+    keyboard.wait('space')
     print('space was pressed! Waiting on it again...')
     break
