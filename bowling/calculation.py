@@ -20,34 +20,39 @@ def throw() -> list:
             throw_points.append(rnd_number)
             logging.info(f"Catched STRIKE ! {rnd_number}")
             return throw_points
+        else:
+            throw_points.append(rnd_number)
+            logging.info(f"Catched first throw if not STRIKE ! {rnd_number}")
 
-        throw_points.append(rnd_number)
-        logging.info(f"Catched first throw if not STRIKE ! {rnd_number}")
+            keyboard.wait('space')
+            second_random = random.randint(0, 10 - rnd_number)
+            throw_points.append(second_random)
+            logging.info(f"Catched second throw if not STRIKE ! {second_random}")
 
-        keyboard.wait('space')
-        second_random = random.randint(0, 10 - rnd_number)
-        throw_points.append(second_random)
-        logging.info(f"Catched second throw if not STRIKE ! {second_random}")
+            spare = rnd_number + second_random
 
-        stride = rnd_number + second_random
-
-        if stride == 10:
-            print('STRIDE !')
-            logging.info(f"Catched STRIDE !! {stride}")
-            break
-        break
-    return throw_points
+            if spare == 10:
+                print('SPARE !')
+                logging.info(f"Catched SPARE ! {spare}")
+                pass
+            return throw_points
+    
 
 
 def number_of_throws():
-    a = throw()
-    print(a)
-    for _ in range(10):
-        if a[0] == 10:
-            print(a)
-            print("STIKE")
+    i = 0
+    result = {}
+    while i < 10:
+        i += 1
+        value_of_throw = throw()
+        print(f'Got value from throw: {value_of_throw}')
+        #if value_of_throw[0] == 10:  # paskui itraukti i apskaičiuojant koks tai metimas arba i įtraukti į [i][i]
+        result[i] = value_of_throw
             
-    
+        print(f"Jau buvo {i} metimų")
+    print(result)
+
+
 if __name__ == "__main__":
-    
+
     print(number_of_throws())
