@@ -7,6 +7,12 @@ logging.basicConfig(level=logging.DEBUG, filename='data.log', filemode='a',
                     datefmt='%d/%m/%Y %H:%M:%S')
 
 
+def one_throw() -> int:
+    keyboard.wait('space')  # wait 'space' push
+    rnd_number = random.randint(0, 10)  # start generate random number
+    return rnd_number
+    
+
 def throw() -> list:
 
     throw_points = []
@@ -36,23 +42,47 @@ def throw() -> list:
                 logging.info(f"Catched SPARE ! {spare}")
                 pass
             return throw_points
-    
 
 
 def number_of_throws():
     i = 0
     result = {}
-    while i < 10:
+    while i < 4: # TODO: buvo 10
         i += 1
         value_of_throw = throw()
         print(f'Got value from throw: {value_of_throw}')
         #if value_of_throw[0] == 10:  # paskui itraukti i apskaičiuojant koks tai metimas arba i įtraukti į [i][i]
         result[i] = value_of_throw
+        if i == 4:  # TODO: buvo 10
             
-        print(f"Jau buvo {i} metimų")
+            if value_of_throw[0] == 10:
+                last_throw = []
+ 
+                for i in range(2):
+                    a = throw()
+                    last_throw.append(a)
+                    print('IF last throw: ', {a[0]})
+                result[i] = last_throw
+                break
+            elif sum(value_of_throw) == 10:
+                a = value_of_throw
+                b = one_throw()
+                a.append(b)
+                result[1] = a
+                break
+                
+        print(f" {i} metimas")
     print(result)
 
 
 if __name__ == "__main__":
 
     print(number_of_throws())
+    # result = {}
+    # value_of_throw = [1, 9]
+    # if sum(value_of_throw) == 10:
+    #     a = value_of_throw
+    #     b = one_throw()
+    #     a.append(b)
+    #     result[1] = a
+    # print(result)
