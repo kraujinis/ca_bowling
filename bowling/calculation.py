@@ -7,27 +7,28 @@ logging.basicConfig(level=logging.DEBUG, filename='data.log', filemode='a',
                     datefmt='%d/%m/%Y %H:%M:%S')
 
 
-def throw_calculation() -> list:
+def throw() -> list:
+
     throw_points = []
+
     while True:
 
-        rnd_number = random.randint(0, 10)  # start generate random number
         keyboard.wait('space')  # wait 'space' push
+        rnd_number = random.randint(0, 10)  # start generate random number
 
         if rnd_number == 10:
             throw_points.append(rnd_number)
-            logging.info(f"Catched STRIKE !! {rnd_number}")
-            print('STRIKE !')
-            break
+            logging.info(f"Catched STRIKE ! {rnd_number}")
+            return throw_points
 
-        keyboard.wait('space')
-        throw_points.append(rnd_number)  # append first result of throw
-        logging.info(f"Catched first throw if not STRIKE !! {rnd_number}")
+        throw_points.append(rnd_number)
+        logging.info(f"Catched first throw if not STRIKE ! {rnd_number}")
 
         keyboard.wait('space')
         second_random = random.randint(0, 10 - rnd_number)
-        throw_points.append(second_random)  # append second result of throw
-        logging.info(f"Catched second throw if not STRIKE !! {second_random}")
+        throw_points.append(second_random)
+        logging.info(f"Catched second throw if not STRIKE ! {second_random}")
+
         stride = rnd_number + second_random
 
         if stride == 10:
@@ -38,5 +39,15 @@ def throw_calculation() -> list:
     return throw_points
 
 
+def number_of_throws():
+    a = throw()
+    print(a)
+    for _ in range(10):
+        if a[0] == 10:
+            print(a)
+            print("STIKE")
+            
+    
 if __name__ == "__main__":
-    throw_calculation()
+    
+    print(number_of_throws())

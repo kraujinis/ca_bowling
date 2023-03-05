@@ -5,3 +5,381 @@
 04/03/2023 22:41:57 - root - INFO - Catched first throw if not STRIKE !! 9
 04/03/2023 22:41:58 - root - INFO - Catched second throw if not STRIKE !! 1
 04/03/2023 22:41:58 - root - INFO - Catched STRIDE !! 10
+05/03/2023 12:39:53 - root - INFO - Catched first throw if not STRIKE !! 6
+05/03/2023 12:39:54 - root - INFO - Catched second throw if not STRIKE !! 2
+05/03/2023 12:53:29 - root - INFO - Catched first throw if not STRIKE !! 6
+05/03/2023 12:53:30 - root - INFO - Catched second throw if not STRIKE !! 1
+05/03/2023 12:53:52 - root - INFO - Catched STRIKE !! 10
+05/03/2023 12:53:58 - root - INFO - Catched first throw if not STRIKE !! 7
+05/03/2023 12:53:58 - root - INFO - Catched second throw if not STRIKE !! 0
+05/03/2023 12:54:02 - root - INFO - Catched first throw if not STRIKE !! 9
+05/03/2023 12:54:03 - root - INFO - Catched second throw if not STRIKE !! 1
+05/03/2023 12:54:03 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:05:57 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:05:57 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:07:02 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:07:16 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:07:16 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:07:16 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:15:12 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:15:13 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:15:17 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:15:17 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:15:20 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:15:23 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:15:24 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:15:24 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:15:30 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:15:31 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:15:36 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:15:37 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:15:40 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:15:43 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:15:43 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:15:45 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:15:46 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:15:47 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:15:48 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:15:50 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:15:50 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:15:52 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:15:53 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:15:55 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:15:55 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:15:58 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:16:01 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:16:02 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:04 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:04 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:16:04 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:16:10 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:16:10 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:16:14 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:16:14 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:16:14 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:16:16 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:16:17 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:16:19 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:20 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:23 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:23 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:26 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:16:26 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:28 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:16:28 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:32 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:16:32 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:16:35 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:16:35 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:16:38 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:38 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:16:41 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:16:41 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:16:45 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:46 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:16:48 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:16:48 - root - INFO - Catched second throw if not STRIKE ! 8
+05/03/2023 13:16:50 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:16:50 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:16:52 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:16:52 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:16:53 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:16:54 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:16:56 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:16:58 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:16:58 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:17:00 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:17:00 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:17:01 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:17:02 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:17:04 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:17:04 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:17:05 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:17:06 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:17:08 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:17:08 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:17:08 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:17:12 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:17:13 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:17:13 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:17:15 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:17:15 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:17:17 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:17:18 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:17:26 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:17:27 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:17:39 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:17:39 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:17:41 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:17:41 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:17:43 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:17:43 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:17:44 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:17:44 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:17:47 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:17:47 - root - INFO - Catched second throw if not STRIKE ! 10
+05/03/2023 13:17:47 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:17:51 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:17:51 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:17:51 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:17:53 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:17:54 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:17:55 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:17:55 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:17:57 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:17:57 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:17:59 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:17:59 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:18:01 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:18:01 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:03 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:18:03 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:18:03 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:05 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:18:07 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:18:07 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:18:08 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:18:09 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:18:10 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:18:10 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:18:13 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:18:13 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:18:14 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:18:15 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:15 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:16 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:18:16 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:18 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:18:18 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:18:20 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:18:20 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:21 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:18:21 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:18:21 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:23 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:18:23 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:18:23 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:24 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:18:24 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:18:26 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:18:26 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:18:26 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:27 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:18:27 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:29 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:18:29 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:18:29 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:18:30 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:18:33 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:18:37 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:39 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:18:39 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:41 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:18:41 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:42 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:18:42 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:18:44 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:18:44 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:45 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:18:48 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:18:50 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:18:52 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:18:52 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:18:53 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:18:53 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:18:56 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:18:56 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:18:59 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:18:59 - root - INFO - Catched second throw if not STRIKE ! 10
+05/03/2023 13:18:59 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:19:01 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:19:02 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:19:02 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:19:03 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:19:04 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:19:06 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:19:06 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:19:06 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:19:08 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:19:08 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:19:10 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:19:12 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:19:13 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:19:13 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:19:15 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:19:15 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:19:16 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:19:17 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:19:18 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:19:19 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:19:20 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:19:21 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:19:21 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:19:22 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:19:22 - root - INFO - Catched second throw if not STRIKE ! 8
+05/03/2023 13:20:37 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:20:37 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:20:40 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:20:40 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:20:41 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:20:42 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:20:44 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:20:44 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:20:46 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:20:46 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:20:48 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:20:48 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:20:50 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:20:50 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:20:50 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:20:51 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:20:52 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:20:53 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:20:54 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:20:55 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:20:55 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:20:57 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:20:57 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:20:58 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:20:58 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:20:58 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:21:00 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:21:00 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:21:02 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:21:03 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:21:03 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:21:03 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:21:05 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:21:05 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:21:07 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:21:07 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:21:07 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:21:08 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:21:08 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:21:10 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:21:10 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:21:11 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:21:13 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:21:13 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:21:14 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:21:15 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:21:16 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:21:17 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:21:18 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:21:19 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:21:20 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:21:21 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:21:21 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:21:23 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:21:23 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:21:24 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:21:25 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:22:40 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:22:40 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:22:45 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:22:45 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:22:48 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:22:48 - root - INFO - Catched second throw if not STRIKE ! 8
+05/03/2023 13:22:48 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:22:51 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:22:51 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:22:53 - root - INFO - Catched STRIKE ! 10
+05/03/2023 13:23:23 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:23:43 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:23:43 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:23:53 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:23:53 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:00 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:24:00 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:03 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:24:03 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:24:05 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:24:05 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:24:05 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:24:09 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:24:10 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:24:20 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:24:21 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:23 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:24:23 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:24:23 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:24:26 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:24:26 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:24:29 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:24:29 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:33 - root - INFO - Catched first throw if not STRIKE ! 8
+05/03/2023 13:24:33 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:35 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:24:36 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:24:40 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:24:41 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:24:43 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:24:44 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:24:49 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:24:49 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:27:18 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:27:18 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:27:20 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:20 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:27:22 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:27:22 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:27:22 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:24 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:27:24 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:27:25 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:26 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:27:27 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:27:27 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:27:27 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:29 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:29 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:27:29 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:30 - root - INFO - Catched first throw if not STRIKE ! 2
+05/03/2023 13:27:30 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:27:32 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:27:32 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:27:33 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:34 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:27:36 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:27:36 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:27:40 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:27:40 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:27:41 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:27:42 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:27:43 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:27:43 - root - INFO - Catched second throw if not STRIKE ! 3
+05/03/2023 13:27:43 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:45 - root - INFO - Catched first throw if not STRIKE ! 0
+05/03/2023 13:27:45 - root - INFO - Catched second throw if not STRIKE ! 10
+05/03/2023 13:27:45 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:46 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:27:47 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:27:48 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:27:48 - root - INFO - Catched second throw if not STRIKE ! 1
+05/03/2023 13:27:49 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:50 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:27:51 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:27:51 - root - INFO - Catched second throw if not STRIKE ! 6
+05/03/2023 13:27:53 - root - INFO - Catched first throw if not STRIKE ! 7
+05/03/2023 13:27:53 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:27:54 - root - INFO - Catched first throw if not STRIKE ! 4
+05/03/2023 13:27:54 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:27:56 - root - INFO - Catched first throw if not STRIKE ! 9
+05/03/2023 13:27:56 - root - INFO - Catched second throw if not STRIKE ! 0
+05/03/2023 13:27:57 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:27:57 - root - INFO - Catched second throw if not STRIKE ! 7
+05/03/2023 13:27:57 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:27:59 - root - INFO - Catched first throw if not STRIKE ! 6
+05/03/2023 13:28:00 - root - INFO - Catched second throw if not STRIKE ! 4
+05/03/2023 13:28:00 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:28:01 - root - INFO - Catched first throw if not STRIKE ! 5
+05/03/2023 13:28:01 - root - INFO - Catched second throw if not STRIKE ! 2
+05/03/2023 13:28:02 - root - INFO - Catched first throw if not STRIKE ! 3
+05/03/2023 13:28:03 - root - INFO - Catched second throw if not STRIKE ! 5
+05/03/2023 13:28:04 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:28:04 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:28:04 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:28:05 - root - INFO - Catched first throw if not STRIKE ! 1
+05/03/2023 13:28:05 - root - INFO - Catched second throw if not STRIKE ! 9
+05/03/2023 13:28:05 - root - INFO - Catched STRIDE !! 10
+05/03/2023 13:28:06 - root - INFO - Catched STRIKE ! 10
