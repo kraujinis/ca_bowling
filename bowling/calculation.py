@@ -55,7 +55,7 @@ def number_of_throws():
         result[i] = value_of_throw
         if i == 4:  # TODO: buvo 10
             
-            if value_of_throw[0] == 10:
+            if value_of_throw[0] == 10:  # []: haha
                 last_throw = []
  
                 for i in range(2):
@@ -68,7 +68,7 @@ def number_of_throws():
                 a = value_of_throw
                 b = one_throw()
                 a.append(b)
-                result[1] = a
+                result[i] = a  # TODO: pakeisti į [i]
                 break
                 
         print(f" {i} metimas")
@@ -77,12 +77,16 @@ def number_of_throws():
 
 if __name__ == "__main__":
 
-    print(number_of_throws())
-    # result = {}
-    # value_of_throw = [1, 9]
-    # if sum(value_of_throw) == 10:
-    #     a = value_of_throw
-    #     b = one_throw()
-    #     a.append(b)
-    #     result[1] = a
-    # print(result)
+    #print(number_of_throws())
+    result = {}
+    value_of_throw = [10, 5]
+    if value_of_throw[0] == 10:
+        last_throw = []
+        last_of_throw.append()
+        for _ in range(2):
+            a = one_throw()
+            last_throw.append(a)
+            
+            
+        result[1] = last_throw
+    print(result)
