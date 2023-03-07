@@ -92,8 +92,8 @@ def number_of_throws() -> dict:  # Užėjimai ir metimai, metimo vertės užraš
             if result[str(i)][0] == 10:  # STRIKE
                 last_throw = []
                 last_throw.append(result[str(i)][0])
-                for n in range(2, 4):
-                    a = one_throw()
+                for _ in range(1):
+                    a = throws()
                     print(f'Gauti taškai: {a}')
                     last_throw.append(a)
                 
