@@ -1,26 +1,22 @@
 
-from calculation import values_of_frame
+from calculation import values_of_frame, result_of_frames
 
 
-class Player:
+class Game:
     def __init__(self, player_name: str,) -> None:
         self.player_name = player_name
-        
-    
 
 
 class Result:
 
     def __init__(self, **kwargs):
-        self.kwargs = kwargs
-        print(self.kwargs)
-        
+        self.values = kwargs
+
+
     def dictionary_of_throw_values(self):
-        
-        print(self.kwargs)
-        
+        print()
 
-          
-calculate = Result()
-calculate.dictionary_of_throw_values(**values_of_frame())
 
+Result(**result_of_frames())
+
+# SimpleNamespace(**{0:0})
