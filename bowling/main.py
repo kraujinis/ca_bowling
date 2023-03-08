@@ -13,6 +13,7 @@ class Result:
     def __init__(self, *args: list):
         self.args = args
         print(self.args)
+        
     def dictionary_of_throw_values(self):
         
         i = 0
@@ -22,5 +23,5 @@ class Result:
 
     
 
-a = Result.dictionary_of_throw_values(values_of_throw())
+a = Result.dictionary_of_throw_values(*values_of_throw())
 print(a)
