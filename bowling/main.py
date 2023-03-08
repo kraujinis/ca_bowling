@@ -1,27 +1,26 @@
 
-from calculation import values_of_throw
+from calculation import values_of_frame
 
 
 class Player:
-    def __init__(self, player_name: str, score: int) -> None:
+    def __init__(self, player_name: str,) -> None:
         self.player_name = player_name
-        self.score = score
+        
+    
 
 
 class Result:
 
-    def __init__(self, *args: list):
-        self.args = args
-        print(self.args)
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        print(self.kwargs)
         
     def dictionary_of_throw_values(self):
         
-        i = 0
-        print(self.args)
-        #while i < 3:  # TODO: pakeisti į 10
-            
+        print(self.kwargs)
+        
 
-    
+          
+calculate = Result()
+calculate.dictionary_of_throw_values(**values_of_frame())
 
-a = Result.dictionary_of_throw_values(*values_of_throw())
-print(a)
