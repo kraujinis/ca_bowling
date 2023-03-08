@@ -8,41 +8,41 @@ logging.basicConfig(level=logging.DEBUG, filename='data.log', filemode='a',
                     datefmt='%d/%m/%Y %H:%M:%S')
 
 
-def one_throw() -> int:
-    keyboard.wait('space')  # wait 'space' push
-    rnd_number = random.randint(0, 10)  # start generate random number
-    return rnd_number
+# def one_throw() -> int:
+#     keyboard.wait('space')  # wait 'space' push
+#     rnd_number = random.randint(0, 10)  # start generate random number
+#     return rnd_number
 
 
-def throws() -> list:  # Metimai
+# def throws() -> list:  # Metimai
 
-    throw_points = []
+#     throw_points = []
 
-    while True:
+#     while True:
 
-        keyboard.wait('space')  # wait 'space' push
-        rnd_number = random.randint(0, 10)
-        print(f'Gauti taškai: {rnd_number}')
+#         keyboard.wait('space')  # wait 'space' push
+#         rnd_number = random.randint(0, 10)
+#         print(f'Gauti taškai: {rnd_number}')
 
-        if rnd_number == 10:
-            print('^ ^ STRIKE ^ ^')
-            throw_points.append(rnd_number)
-            logging.info(f"Catched STRIKE ! {rnd_number}")
-            return throw_points
-        else:
-            throw_points.append(rnd_number)
-            logging.info(f"Catched first throw if not STRIKE ! {rnd_number}")
-            keyboard.wait('space')
-            second_random = random.randint(0, 10 - rnd_number)
-            print(f'Gauti taškai: {second_random}')
-            throw_points.append(second_random)
-            logging.info(f"Catched second throw if not STRIKE ! {second_random}")
-            spare = rnd_number + second_random
+#         if rnd_number == 10:
+#             print('^ ^ STRIKE ^ ^')
+#             throw_points.append(rnd_number)
+#             logging.info(f"Catched STRIKE ! {rnd_number}")
+#             return throw_points
+#         else:
+#             throw_points.append(rnd_number)
+#             logging.info(f"Catched first throw if not STRIKE ! {rnd_number}")
+#             keyboard.wait('space')
+#             second_random = random.randint(0, 10 - rnd_number)
+#             print(f'Gauti taškai: {second_random}')
+#             throw_points.append(second_random)
+#             logging.info(f"Catched second throw if not STRIKE ! {second_random}")
+#             spare = rnd_number + second_random
 
-            if spare == 10:
-                print('_ _ SPARE _ _')
-                logging.info(f"Catched SPARE ! {spare}")
-            return throw_points
+#             if spare == 10:
+#                 print('_ _ SPARE _ _')
+#                 logging.info(f"Catched SPARE ! {spare}")
+#             return throw_points
 
 
 # def number_of_throws() -> None:
@@ -79,89 +79,121 @@ def throws() -> list:  # Metimai
 #     print(result)  # DEL
 
 
-def number_of_throws() -> dict:  # Užėjimai ir metimai, metimo vertės užrašymas
-    i = 0
-    result = {}
-    while i < 10:
-        print(f"> {i + 1} < BANDYMAS")
-        i += 1
+# def number_of_throws() -> dict:  # Užėjimai ir metimai, metimo vertės užrašymas
+#     i = 0
+#     result = {}
+#     while i < 10:
+#         print(f"> {i + 1} < BANDYMAS")
+#         i += 1
 
-        result[str(i)] = throws()
+#         result[str(i)] = throws()
 
-        if i == 10:
-            if result[str(i)][0] == 10:  # STRIKE
-                last_throw = []
-                last_throw.append(result[str(i)][0])
-                for _ in range(1):
-                    a = throws()
-                    print(f'Gauti taškai: {a}')
-                    last_throw.append(a)
+#         if i == 10:
+#             if result[str(i)][0] == 10:  # STRIKE
+#                 last_throw = []
+#                 last_throw.append(result[str(i)][0])
+#                 for _ in range(1):
+#                     a = throws()
+#                     print(f'Gauti taškai: {a}')
+#                     last_throw.append(a)
                 
-                result[str(i)] = last_throw
-                break
+#                 result[str(i)] = last_throw
+#                 break
 
-            elif sum(result[str(i)]) == 10:  # SPARE
-                spare_list = []
+#             elif sum(result[str(i)]) == 10:  # SPARE
+#                 spare_list = []
 
-                for n in result[str(i)]:
-                    spare_list.append(n)
+#                 for n in result[str(i)]:
+#                     spare_list.append(n)
 
-                b = one_throw()
-                print(f'Gauti taškai: {b}')
-                spare_list.append(b)
-                result[str(i)] = spare_list
-                break
+#                 b = one_throw()
+#                 print(f'Gauti taškai: {b}')
+#                 spare_list.append(b)
+#                 result[str(i)] = spare_list
+#                 break
 
-    return result
+#     return result
 
 
-def calculate_frame_score() -> dict:
+# def calculate_frame_score() -> dict:
 
-    nmb_of_thrw = number_of_throws()
+#     nmb_of_thrw = number_of_throws()
    
-    frame_score = {}
+#     frame_score = {}
 
-    for key, value in nmb_of_thrw.items():
+#     for key, value in nmb_of_thrw.items():
 
-        if len(value) == 2:  # SPARE
-            if sum(value) == 10:
-                spare_value = []
-                for i in value:
-                    logging.info(f"SPARE area, i value ! {i}")
-                    spare_value.append(i)
-                int_key = int(key) + 1
-                a = nmb_of_thrw.get(str(int_key))
-                logging.info(f"SPARE area, a value ! {a}")
-                spare_value.append(a[0])
-                frame_score[key] = sum(spare_value)
+#         if len(value) == 2:  # SPARE
+#             if sum(value) == 10:
+#                 spare_value = []
+#                 for i in value:
+#                     logging.info(f"SPARE area, i value ! {i}")
+#                     spare_value.append(i)
+#                 int_key = int(key) + 1
+#                 a = nmb_of_thrw.get(str(int_key))
+#                 logging.info(f"SPARE area, a value ! {a}")
+#                 spare_value.append(a[0])
+#                 frame_score[key] = sum(spare_value)
 
-            else:
-                frame_score[key] = sum(value)
+#             else:
+#                 frame_score[key] = sum(value)
 
-        elif len(value) == 3:
-            frame_score[key] = sum(value)
+#         elif len(value) == 3:
+#             frame_score[key] = sum(value)
 
-        strike_value = []
+#         strike_value = []
 
-        if value[0] == 10:  # STRIKE
-            for i in range(0, 3):
-                if len(strike_value) == 3:
-                    break
-                int_x = int(key) + i
-                a = nmb_of_thrw.get(str(int_x))
+#         if value[0] == 10:  # STRIKE
+#             for i in range(0, 3):
+#                 if len(strike_value) == 3:
+#                     break
+#                 int_x = int(key) + i
+#                 a = nmb_of_thrw.get(str(int_x))
 
-                if a == 10:
-                    strike_value.append(a[0])
-                else:
-                    h = nmb_of_thrw.get(str(int_x))
-                    for r in h:
-                        if len(strike_value) == 3:
-                            break
-                        strike_value.append(r)
+#                 if a == 10:
+#                     strike_value.append(a[0])
+#                 else:
+#                     h = nmb_of_thrw.get(str(int_x))
+#                     for r in h:
+#                         if len(strike_value) == 3:
+#                             break
+#                         strike_value.append(r)
                         
-            frame_score[key] = sum(strike_value)
-    print(frame_score)
-    return frame_score
+#             frame_score[key] = sum(strike_value)
+#     print(frame_score)
+#     return frame_score
+
+def throw(thr: int) -> int:
+    rnd_nmb = random.randint(1, 10 - thr)
+    return rnd_nmb
+    
+    
+def random_number() -> int:
+    rnd_nmb = random.randint(0, 10)
+    return rnd_nmb
+
+
+def values_of_throw() -> list:
+    
+    throw_list = []
+    keyboard.wait('space')
+    rnd_nmb = random_number()
+    print(f'You knock down {rnd_nmb} pins')
+    throw_list.append(rnd_nmb)
+    
+    if throw_list[0] == 10:
+        print('>>>> STRIKE <<<<')
+    
+    elif throw_list[0] != 10:
+        keyboard.wait('space')
+        second_throw = throw(rnd_nmb)
+        print(f'You knock down {second_throw} pins')
+        throw_list.append(second_throw)
+    
+        if sum(throw_list) == 10:
+            print('--- SPARE ---')
+        
+    return throw_list
 
 
 if __name__ == "__main__":
@@ -169,19 +201,20 @@ if __name__ == "__main__":
     # calculate_frame_score()
     #number_of_throws()
     
-    def throw():
+    def values_of_frame() -> dict:
         
-        while True:
-            i = []
-            keyboard.wait('space')
-            rnd_first = random.randint(9, 10)
-            i.append(rnd_first)
-            if i[0] == 10:
-                return i
-            else:
-                keyboard.wait('space')
-                rnd_second = random.randint(0, 10 - rnd_first)
-                i.append(rnd_second)
-            #print(i)
-            return i
-    print(throw())
+        dic_val_of_frm = {}
+        
+        i = 0
+        
+        while i < 3:  # TODO: padaryti vėliau 10
+            
+            values = []
+            val_of_throw = values_of_throw()
+            
+            if len(dic_val_of_frm) <= 2:  # TODO: pakeisti į 9
+                values.append(val_of_throw)
+            print(values)
+    
+    
+    values_of_frame()
