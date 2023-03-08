@@ -166,6 +166,22 @@ def calculate_frame_score() -> dict:
 
 if __name__ == "__main__":
 
-    calculate_frame_score()
+    # calculate_frame_score()
     #number_of_throws()
-
+    
+    def throw():
+        
+        while True:
+            i = []
+            keyboard.wait('space')
+            rnd_first = random.randint(9, 10)
+            i.append(rnd_first)
+            if i[0] == 10:
+                return i
+            else:
+                keyboard.wait('space')
+                rnd_second = random.randint(0, 10 - rnd_first)
+                i.append(rnd_second)
+            #print(i)
+            return i
+    print(throw())
