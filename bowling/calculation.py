@@ -169,7 +169,7 @@ def throw(thr: int) -> int:
     
     
 def random_number() -> int:
-    rnd_nmb = random.randint(0, 10)
+    rnd_nmb = random.randint(9, 10)  # TODO: pakeisti 9 -> 1
     return rnd_nmb
 
 
@@ -196,6 +196,38 @@ def values_of_throw() -> list:
     return throw_list
 
 
+def last_throw() -> list:
+    
+    throw_list = []
+    
+    i = 0
+    while i < 3:
+        
+        i += 1
+        #list_of_values = []
+        keyboard.wait('space')
+        rnd_nmb = random_number()
+        
+        if rnd_nmb == 10:
+            print('>>>> STRIKE <<<<')
+            print(f'You knock down {rnd_nmb} pins')
+            throw_list.append(rnd_nmb)
+            
+        # else:
+        #     throw_list.append(rnd_nmb)
+        #     print(f'You knock down {rnd_nmb} pins')
+        
+        elif rnd_nmb < 10:
+            second_throw = throw(rnd_nmb)
+            print(f'You knock down {second_throw} pins ---')
+            throw_list.append(second_throw)
+            
+        elif 
+            
+        
+    print(throw_list)
+    return throw_list
+
 if __name__ == "__main__":
 
     # calculate_frame_score()
@@ -208,13 +240,52 @@ if __name__ == "__main__":
         i = 0
         
         while i < 3:  # TODO: padaryti vėliau 10
-            
+            print(f'| {i + 1} FRAME |')
+            print('įprastas metimas')
+            i += 1
             values = []
             val_of_throw = values_of_throw()
             
             if len(dic_val_of_frm) <= 2:  # TODO: pakeisti į 9
-                values.append(val_of_throw)
-            print(values)
+                
+                for n in val_of_throw:
+                    values.append(n)
+            
+            if i == 3:  # TODO: pakeisti į 10
+                last_throw_values = []
+                
+                
+                if val_of_throw[0] == 10:  # TODO: str[3] pakeisti į 10
+                    print('Pagavo STRIKE paskutiniame metime')
+                    last_throw = values_of_throw()
+                    for n in last_throw:
+                        last_throw_values.append(n)
+                    
+                # if len(last_throw_values) == 3:
+                #     break
+                    
+                elif sum(val_of_throw) == 10:
+                    print('Pagavo SPARE paskutiniame metime')
+                    last_throw = values_of_throw()
+                    
+                    for n in last_throw:
+                        
+                        last_throw_values.append(n)
+                        print(last_throw)
+                        break
+                for n in last_throw_values:
+                    values.append(n)
+                
+            dic_val_of_frm[str(i)] = values
+            
+# [x]: STRIKE po to SPARE bet dar prasisuka ir vienas STRIKE   BAD   
+# [x]: Po pirmo SPARE dar prasisisuka antras SPARE BAD   
+# [ ]: Po STRIKE ir spare neįsirašo į listą rezultatas     
+                    
+                
+            
+        print(dic_val_of_frm)
+        return dic_val_of_frm
     
-    
-    values_of_frame()
+    #values_of_frame()
+    last_throw()
