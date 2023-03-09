@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 keyboard = "*"
+prettytable = "*"
 
 [dev-packages]
 ipykernel = "*"

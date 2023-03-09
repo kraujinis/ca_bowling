@@ -1,4 +1,6 @@
 -i https://pypi.org/simple
 keyboard==0.13.5
 prettytable==3.6.0
+tabulate==0.9.0
+tabulate-cell-merger==0.0.2
 wcwidth==0.2.6
