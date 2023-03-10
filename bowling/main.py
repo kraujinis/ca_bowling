@@ -1,6 +1,8 @@
-import random
-import keyboard
 import logging
+import random
+from typing import Optional, Union
+
+import keyboard
 
 logging.basicConfig(level=logging.DEBUG, filename='data.log', filemode='a',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -132,22 +134,25 @@ class Result(Throws):
 
         return dic_val_of_frm
 
-    def result_of_frames(self) -> dict:
+    def result_of_frames(self) -> Union[dict, int]:
         '''Sum results of throws in Frames
             And return dictionary {str, int}
                                   {'1': 10}'''
 
         frame_score = {}
+        total_score = []
 
         nmb_of_thrw = self.values_of_frame()
 
         for key, value in nmb_of_thrw.items():
+            if len(value) == 3:
+                frame_score[key] = sum(value)
             if len(value) == 2:  # SPARE
                 if sum(value) == 10:
                     spare_value = []
                     for i in value:
-
                         spare_value.append(i)
+                        
                     int_key = int(key) + 1
                     a = nmb_of_thrw.get(str(int_key))
 
@@ -156,9 +161,6 @@ class Result(Throws):
 
                 else:
                     frame_score[key] = sum(value)
-
-            elif len(value) == 3:
-                frame_score[key] = sum(value)
 
             strike_value = []
 
@@ -179,8 +181,12 @@ class Result(Throws):
                             strike_value.append(r)
 
                 frame_score[key] = sum(strike_value)
-        print(f'Score of frames: {frame_score}')
-        return frame_score
+            
+        for n in frame_score.values():
+            total_score.append(n)
+        
+        print(f'Score of frames: {frame_score}')  # DEL
+        return frame_score, sum(total_score)
 
     def format_result_of_frame(self) -> list:
         formated_result = []
@@ -203,7 +209,8 @@ class Result(Throws):
                     if value[2] != 10:
                         last_throw_format_two = str(value[0]) + '|' + '/' + str(value[2])
                         formated_result.append(last_throw_format_two)
-        return formated_result
+        return formated_result 
+        
 
     def total_score_of_frames(self) -> int:
         total_score = []
@@ -214,6 +221,7 @@ class Result(Throws):
     def player_name_and_total_score(self) -> None:
 
         print(f'\nScore of frames: {self.format_result_of_frame()}')
+        print(self.result_of_frames())
         print(f'\nPlayer name: \u001b[4m\u001b[44m{self.player_name}\u001b[0m')
 
 
